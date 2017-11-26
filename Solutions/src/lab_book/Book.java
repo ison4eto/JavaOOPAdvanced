@@ -9,13 +9,13 @@ public class Book implements Comparable<Book>{
     private int year;
     private List<String> authors;
 
-    Book(String title, int year, String... authors) {
+   public Book(String title, int year, String... authors) {
         this.setTitle(title);
         this.setYear(year);
         this.setAuthors(authors);
     }
 
-    private String getTitle() {
+    String getTitle() {
         return title;
     }
 
@@ -23,7 +23,7 @@ public class Book implements Comparable<Book>{
         this.title = title;
     }
 
-    private int getYear() {
+    int getYear() {
         return year;
     }
 

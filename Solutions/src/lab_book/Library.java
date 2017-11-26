@@ -5,7 +5,7 @@ import java.util.Iterator;
 public class Library<Book> implements Iterable<Book> {
     private Book[] books;
 
-    Library(Book... books) {
+    public Library(Book... books) {
         this.books = books;
     }
 
