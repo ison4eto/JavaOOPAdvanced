@@ -1,7 +1,4 @@
-package p01_book;
-
-import java.util.ArrayList;
-import java.util.List;
+package c_iterators.lab_book;
 
 public class Main {
     //Task 1

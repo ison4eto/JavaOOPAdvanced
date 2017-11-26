@@ -1,4 +1,4 @@
-package p01_book;
+package c_iterators.lab_book;
 
 import java.util.ArrayList;
 import java.util.Arrays;
