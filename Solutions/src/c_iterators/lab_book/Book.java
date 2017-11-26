@@ -52,7 +52,7 @@ public class Book implements Comparable<Book>{
     public int compareTo(Book o) {
 
         if(this.getTitle().compareTo(o.getTitle()) == 0){
-            return o.getYear()-this.getYear();
+            return this.getYear()-o.getYear();
         }
         return this.getTitle().compareTo(o.getTitle());
     }
